@@ -6,17 +6,17 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-gray-100">
+<body class="dark:bg-gray-800 bg-gray-100">
     <div class="flex h-screen flex-col items-center justify-center gap-4">
         <div class="flex gap-2">
-            <input class="w-48 rounded-md border border-gray-300 px-3 py-2 text-lg outline-none focus:border-gray-500" type="text" id="cityInput" placeholder="Enter city name">
-            <button class="cursor-pointer rounded-md bg-green-500 px-4 py-2 font-bold text-white transition-colors hover:bg-green-600 active:bg-green-400" id="fetchWeather" >Fetch Weather</button>
+            <input class="w-48 rounded-md border dark:border-gray-600 border-gray-300 px-3 py-2 text-lg outline-none focus:border-gray-500 dark:text-white" type="text" id="cityInput" placeholder="Enter city name">
+            <button class="cursor-pointer rounded-md dark:bg-green-800 px-4 py-2 font-bold text-white transition-colors hover:dark:bg-green-600 active:dark:bg-green-400" id="fetchWeather" >Fetch Weather</button>
         </div>
-        <div class="flex w-60 flex-col items-center gap-2 rounded-lg bg-blue-400 p-6 text-center shadow-lg" id="weatherInfo">
-            <h1 id="CityName" class="text-3xl font-bold text-slate-700">Delhi</h1>
-            <h2 id="temperatureinfo" class="text-4xl font-bold text-slate-700">10°C</h2>
-            <h3 id="humidityinfo" class="text-lg font-semibold text-slate-600">Humidity: 60%</h3>
-            <h3 id="skyinfo" class="text-lg font-semibold text-slate-600">Sky: Sunny</h3>
+        <div class="flex w-60 flex-col items-center gap-2 rounded-lg dark:bg-gray-700 bg-blue-400 p-6 text-center shadow-lg" id="weatherInfo">
+            <h1 id="CityName" class="text-3xl dark:text-white font-bold text-slate-700">Delhi</h1>
+            <h2 id="temperatureinfo" class="text-4xl dark:text-white font-bold text-slate-700">10°C</h2>
+            <h3 id="humidityinfo" class="text-lg font-semibold dark:text-white text-slate-600">Humidity: 60%</h3>
+            <h3 id="skyinfo" class="text-lg font-semibold dark:text-white text-slate-600">Sky: Sunny</h3>
             <h1 id="emojiinfo" class="text-5xl">🌞</h1>
         </div>
     </div>
