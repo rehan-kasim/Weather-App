@@ -11,15 +11,15 @@ const api = '1d67ecf8acbc6348a362b908df6b380c';
 let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&appid=${api}&units=metric`;
 
 function getEmoji(id) {
-    if (id >= 200 && id < 300) return "⛈️";   // thunderstorm
-    if (id >= 300 && id < 400) return "🌦️";   // drizzle
-    if (id >= 500 && id < 600) return "🌧️";   // rain
-    if (id >= 600 && id < 700) return "❄️";   // snow
-    if (id >= 700 && id < 800) return "🌫️";   // mist, fog, haze
-    if (id === 800) return "☀️";              // clear sky
-    if (id === 801) return "🌤️";              // few clouds
-    if (id === 802) return "⛅";              // scattered clouds
-    return "☁️";                              // broken or overcast clouds
+    if (id >= 200 && id < 300) return "⛈️";
+    if (id >= 300 && id < 400) return "🌦️";
+    if (id >= 500 && id < 600) return "🌧️";
+    if (id >= 600 && id < 700) return "❄️";
+    if (id >= 700 && id < 800) return "🌫️";
+    if (id === 800) return "☀️";
+    if (id === 801) return "🌤️";
+    if (id === 802) return "⛅";
+    return "☁️";
 }
 
 async function getinfo(city) {
