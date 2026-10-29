@@ -14,7 +14,7 @@ So This a weather app, You enter the city name in the input and click fetch butt
 * Download the Github Repo As Zip
 * Or do ```git clone https://github.com/rehan-kasim/Weather-App```
 ### Executing Program
-* Download the repository add your openweather api in the .env it and double click the index.html to open in browser. Or just Open this url ```Adding This Later```
+* Download the repository add your openweather api in the .env it and double click the index.html to open in browser. Or just Open this url ```https://weather-app-src.vercel.app```
 * Or launch a python Local Server Use ``` python -m http.server``` and Open port 8000.
 * Or Use live Server Extension In VS Code.
 ### Rebuild Tailwind
