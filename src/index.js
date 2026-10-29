@@ -7,7 +7,7 @@ const humidityInfo = document.getElementById('humidityinfo');
 const skyInfo = document.getElementById('skyinfo');
 const emojiInfo = document.getElementById('emojiinfo');
 
-const api = '1d67ecf8acbc6348a362b908df6b380c';
+const api = process.env.API_KEY;
 let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&appid=${api}&units=metric`;
 
 function getEmoji(id) {
