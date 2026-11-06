@@ -1,3 +1,5 @@
+import './input.css'
+
 const cityInput = document.getElementById('cityInput');
 const fetchWeatherButton = document.getElementById('fetchWeather');
 const weatherInfo = document.getElementById('weatherInfo');
@@ -7,7 +9,7 @@ const humidityInfo = document.getElementById('humidityinfo');
 const skyInfo = document.getElementById('skyinfo');
 const emojiInfo = document.getElementById('emojiinfo');
 
-const api = process.env.API_KEY;
+const api = import.meta.env.VITE_API;
 let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&appid=${api}&units=metric`;
 
 function getEmoji(id) {

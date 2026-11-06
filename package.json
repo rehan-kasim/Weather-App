@@ -1,6 +1,29 @@
 {
+  "name": "wheather-app",
+  "version": "1.0.0",
+  "description": "A simple weather app built to learn Tailwind and JavaScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@tailwindcss/cli": "^4.3.3",
     "tailwindcss": "^4.3.3"
-  }
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "vite": "^8.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehan-kasim/Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehan-kasim/Weather-App/issues"
+  },
+  "homepage": "https://github.com/rehan-kasim/Weather-App#readme"
 }
