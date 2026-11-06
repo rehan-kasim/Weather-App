@@ -1,4 +1,4 @@
-# PortFolio
+# Weather App
 It is a simple Weather App i made to learn Tailwind and JavaScript.
 ## Description
 So This a weather app, You enter the city name in the input and click fetch button and you get the data of the weather. Like temperature , humidity, sky data and a fun emoji. It got Day And night mode system level.
